@@ -1,0 +1,13 @@
+Body{
+    text-align: center;;
+}
+
+.choice-button{
+    height:50px;
+    width:70px;
+    margin:10px;
+    border: none;
+    background-color: brown;
+    border-radius: 8px;
+    cursor: pointer;
+}
