@@ -3,11 +3,39 @@ Body{
 }
 
 .choice-button{
-    height:50px;
-    width:70px;
-    margin:10px;
+    height:120px;
+    width:120px;
+    margin:50px;
     border: none;
-    background-color: brown;
+    background-color: white;
     border-radius: 8px;
     cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice-button:hover{
+    transform: translate(5px);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+}
+.image-button{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.rst-button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rst-button:hover{
+    transform: translate(5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
